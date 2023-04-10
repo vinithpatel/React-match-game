@@ -1,0 +1,21 @@
+.thumb-item{
+    flex-shrink:0 ;
+    height:80px;
+    width:80px;
+}
+@media (min-width:768px){
+    .thumb-item{
+       height:125px;
+    width:125px;
+    }
+}
+.thumb-button{
+    border-width:0px;
+    background-color:transparent ;
+    cursor:pointer ;
+    outline:none ;
+
+}
+.thumbnail-image{
+    width:100%;
+}
